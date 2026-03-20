@@ -1,12 +1,16 @@
-nnunetv2
+# 核心深度学习库
 torch
 torchvision
 torchaudio
+
+# nnU-Net 及其核心依赖
+nnunetv2
 nibabel
 numpy
 scipy
 scikit-image
 tqdm
-# dicom2nifti (Commented out due to python-gdcm issues in some environments)
+
+# 替代 DICOM 处理方案 (更稳定)
 SimpleITK
 pydicom
