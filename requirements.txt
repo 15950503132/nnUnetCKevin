@@ -3,14 +3,26 @@ torch
 torchvision
 torchaudio
 
-# nnU-Net 及其核心依赖
-nnunetv2
+# nnU-Net 必要的辅助库 (手动安装 nnunetv2 --no-deps)
 nibabel
 numpy
 scipy
 scikit-image
 tqdm
+acvl-utils
+dynamic-network-architectures
+medpy
+batchgenerators
+scikit-learn
+pandas
+graphviz
+tifffile
+requests
+matplotlib
+seaborn
+imagecodecs
+yacs
 
-# 替代 DICOM 处理方案 (更稳定)
+# 替代 DICOM 处理方案
 SimpleITK
 pydicom

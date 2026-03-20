@@ -23,7 +23,12 @@ class nnUNetManager:
             import nnunetv2
             print(f"Successfully imported nnunetv2 version: {nnunetv2.__version__}")
         except ImportError:
-            print("Warning: nnunetv2 package not found. Please run 'pip install nnunetv2'")
+            print("-" * 50)
+            print("【重要提示】检测到 nnunetv2 未安装或安装不完整。")
+            print("请执行以下命令完成安装：")
+            print("1. pip install dicom2nifti --no-deps")
+            print("2. pip install nnunetv2 --no-deps")
+            print("-" * 50)
 
     def plan_and_preprocess(self, configuration: str = "3d_fullres"):
         """
