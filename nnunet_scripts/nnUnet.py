@@ -25,8 +25,8 @@ class nnUNetManager:
         except ImportError:
             print("-" * 50)
             print("【重要提示】检测到 nnunetv2 未安装或安装不完整。")
-            print("请执行以下命令完成安装：")
-            print("1. pip install dicom2nifti --no-deps")
+            print("由于您的环境是 Python 3.8，请执行以下命令：")
+            print("1. pip install 'pydicom<3.0.0' 'dicom2nifti<2.5.0' --no-deps")
             print("2. pip install nnunetv2 --no-deps")
             print("-" * 50)
 

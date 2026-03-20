@@ -25,4 +25,4 @@ yacs
 
 # 替代 DICOM 处理方案
 SimpleITK
-pydicom
+pydicom<3.0.0
