@@ -7,4 +7,6 @@ numpy
 scipy
 scikit-image
 tqdm
-dicom2nifti
+# dicom2nifti (Commented out due to python-gdcm issues in some environments)
+SimpleITK
+pydicom
