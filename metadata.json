@@ -1,0 +1,5 @@
+{
+  "name": "SpineSeg AI - nnU-Net Manager",
+  "description": "A professional dashboard for managing nnU-Net spine segmentation projects, including dataset preparation, training monitoring, and inference.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,10 @@
+nnunetv2
+torch
+torchvision
+torchaudio
+nibabel
+numpy
+scipy
+scikit-image
+tqdm
+dicom2nifti
